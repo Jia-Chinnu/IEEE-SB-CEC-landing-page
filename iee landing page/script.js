@@ -35,7 +35,7 @@ showCurrentSlide();
 
 window.addEventListener('scroll', function() {
   if (window.scrollY === 0) {
-    // Reset intro box positions
+  
     document.querySelectorAll('.intro-box').forEach(function(box) {
       box.style.transform = 'none';
     });
